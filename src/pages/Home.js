@@ -3,42 +3,97 @@ function Home() {
     <>
       <section className="hero" id="home">
         <div className="hero-content">
-          <h1 className="hero-title">Discover Amazing Places</h1>
+          <h1 className="hero-title">Where Travel Meets Trust</h1>
           <p className="hero-subtitle">
-            Embark on unforgettable journeys to the world's most beautiful destinations. 
-            Create memories that will last a lifetime with our expertly crafted travel experiences.
+            Discover the World with Units Travel LLC - Your premier Destination Management Company 
+            operating across China, Southeast Asia, and the Middle East with over 15 years of experience.
           </p>
           <button className="cta-button">Start Your Adventure</button>
         </div>
       </section>
 
-      <section className="features" id="destinations">
+      <section className="features" id="services">
         <div className="features-container">
-          <h2 className="features-title">Why Choose UnitTravel?</h2>
-          <div className="features-grid">
-            <div className="feature-card">
-              <div className="feature-icon">🌍</div>
-              <h3 className="feature-title">Global Destinations</h3>
-              <p className="feature-description">
-                Explore over 200+ destinations worldwide with our carefully curated travel packages 
-                designed to give you the best experience in every corner of the globe.
+          <h2 className="features-title">Our Professional Services</h2>
+          <p className="section-subtitle">Comprehensive travel solutions tailored for leisure, business, and group travelers</p>
+          <div className="services-grid">
+            <div className="service-card premium">
+              <div className="service-icon">✈️</div>
+              <h3 className="service-title">Flight Bookings & Ticketing</h3>
+              <p className="service-description">
+                Professional flight booking services with competitive rates and comprehensive 
+                ticketing solutions for all your travel needs worldwide.
               </p>
+              <div className="service-features">
+                <span>• Global Airlines</span>
+                <span>• Best Prices</span>
+                <span>• 24/7 Support</span>
+              </div>
             </div>
-            <div className="feature-card">
-              <div className="feature-icon">⭐</div>
-              <h3 className="feature-title">Expert Guidance</h3>
-              <p className="feature-description">
-                Our team of travel experts with 15+ years of experience will guide you through 
-                every step of your journey, ensuring a seamless and memorable trip.
+            <div className="service-card premium">
+              <div className="service-icon">🏖️</div>
+              <h3 className="service-title">Holiday Packages</h3>
+              <p className="service-description">
+                Inbound and outbound holiday packages tailored to your preferences, 
+                covering destinations across China, Southeast Asia, and the Middle East.
               </p>
+              <div className="service-features">
+                <span>• Custom Packages</span>
+                <span>• Group Tours</span>
+                <span>• Local Expertise</span>
+              </div>
             </div>
-            <div className="feature-card">
-              <div className="feature-icon">💎</div>
-              <h3 className="feature-title">Luxury Experience</h3>
-              <p className="feature-description">
-                Enjoy premium accommodations, exclusive access to attractions, and personalized 
-                services that transform your vacation into an extraordinary adventure.
+            <div className="service-card premium">
+              <div className="service-icon">🏨</div>
+              <h3 className="service-title">Hotel Reservations</h3>
+              <p className="service-description">
+                Hotel reservations worldwide with luxury travel options and 
+                customized experiences for every type of traveler.
               </p>
+              <div className="service-features">
+                <span>• Luxury Hotels</span>
+                <span>• Budget Options</span>
+                <span>• Verified Partners</span>
+              </div>
+            </div>
+            <div className="service-card premium">
+              <div className="service-icon">📋</div>
+              <h3 className="service-title">Visa Assistance</h3>
+              <p className="service-description">
+                Complete visa assistance, travel insurance, and global visit visa 
+                services to ensure smooth travel documentation.
+              </p>
+              <div className="service-features">
+                <span>• Visa Processing</span>
+                <span>• Travel Insurance</span>
+                <span>• Document Support</span>
+              </div>
+            </div>
+            <div className="service-card premium">
+              <div className="service-icon">🏢</div>
+              <h3 className="service-title">Corporate & MICE Travel</h3>
+              <p className="service-description">
+                Professional business travel management including Meetings, Incentives, 
+                Conferences, and Exhibitions with comprehensive support.
+              </p>
+              <div className="service-features">
+                <span>• Business Travel</span>
+                <span>• Event Management</span>
+                <span>• Corporate Rates</span>
+              </div>
+            </div>
+            <div className="service-card premium">
+              <div className="service-icon">🚌</div>
+              <h3 className="service-title">Transportation & Tours</h3>
+              <p className="service-description">
+                Complete transportation solutions and guided tours to enhance 
+                your travel experience with local expertise and cultural insights.
+              </p>
+              <div className="service-features">
+                <span>• Local Transport</span>
+                <span>• Guided Tours</span>
+                <span>• Cultural Experiences</span>
+              </div>
             </div>
           </div>
         </div>
