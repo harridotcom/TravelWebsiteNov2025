@@ -1,15 +1,10 @@
+import HeroSlider from '../components/HeroSlider';
+
 function Home() {
   return (
     <>
-      <section className="hero" id="home">
-        <div className="hero-content">
-          <h1 className="hero-title">Where Travel Meets Trust</h1>
-          <p className="hero-subtitle">
-            Discover the World with Units Travel LLC - Your premier Destination Management Company 
-            operating across China, Southeast Asia, and the Middle East with over 15 years of experience.
-          </p>
-          <button className="cta-button">Start Your Adventure</button>
-        </div>
+      <section id="home">
+        <HeroSlider />
       </section>
 
       <section className="features" id="services">

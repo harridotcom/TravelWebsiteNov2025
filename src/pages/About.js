@@ -1,4 +1,5 @@
-import OrganizationChart from '../components/OrganizationChart';
+import UnitsOrgChart from '../components/UnitsOrgChart';
+import UnitsGallery from '../components/UnitsGallery';
 
 function About() {
   return (
@@ -36,9 +37,9 @@ function About() {
       </section>
 
 
-      <section className="team-section">
-        <OrganizationChart />
-      </section>
+      <UnitsOrgChart />
+
+      <UnitsGallery />
 
       <section className="offices-section">
         <div className="features-container">
