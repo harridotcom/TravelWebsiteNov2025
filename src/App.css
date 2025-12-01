@@ -50,16 +50,18 @@ body {
 }
 
 .logo-image {
-  height: 50px;
+  height: 70px;
   width: auto;
-  max-width: 150px;
+  max-width: 200px;
   object-fit: contain;
+  margin-right: 15px;
 }
 
 .logo-text {
   font-size: 1.8rem;
   font-weight: bold;
   color: #2c5aa0;
+  letter-spacing: 1px;
 }
 
 .nav-menu {

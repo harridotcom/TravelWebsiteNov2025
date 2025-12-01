@@ -12,10 +12,9 @@ function Navbar() {
             onError={(e) => {
               // Fallback to text if image fails to load
               e.target.style.display = 'none';
-              e.target.nextSibling.style.display = 'inline';
             }}
           />
-          <span className="logo-text" style={{display: 'none'}}>Units Travel</span>
+          <span className="logo-text">UNITS TRAVEL</span>
         </Link>
         <ul className="nav-menu">
           <li><Link to="/" className="nav-link">Home</Link></li>
