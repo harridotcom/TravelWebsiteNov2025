@@ -45,7 +45,6 @@ function Footer() {
               <li><a href="#">Flight Bookings & Ticketing</a></li>
               <li><a href="#">Holiday Packages</a></li>
               <li><a href="#">Hotel Reservations</a></li>
-              <li><a href="#">Visa Assistance</a></li>
               <li><a href="#">Corporate & MICE Travel</a></li>
               <li><a href="#">Luxury Travel Experiences</a></li>
             </ul>
@@ -60,9 +59,8 @@ function Footer() {
               </div>
               <div className="office">
                 <h4>Other Locations</h4>
-                <p>🌍 Saudi Arabia</p>
-                <p>🌍 China</p>
-                <p>🌍 Iraq</p>
+                <p>🇸🇦 Saudi Arabia</p>
+                <p>🇨🇳 China</p>
               </div>
             </div>
           </div>

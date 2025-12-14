@@ -14,16 +14,16 @@ function Navbar() {
               e.target.style.display = 'none';
             }}
           />
-          <span className="logo-text">UNITS TRAVEL</span>
+          <span className="logo-text">UNITS TRAVEL LLC</span>
         </Link>
         <ul className="nav-menu">
           <li><Link to="/" className="nav-link">Home</Link></li>
           <li><Link to="/destinations" className="nav-link">Destinations</Link></li>
-          <li><Link to="/packages" className="nav-link">Packages</Link></li>
+          <li><Link to="/visa" className="nav-link">Visa</Link></li>
+          <li><Link to="/flights" className="nav-link">Flights</Link></li>
           <li><Link to="/about" className="nav-link">About</Link></li>
           <li><Link to="/contact" className="nav-link">Contact</Link></li>
         </ul>
-        <button className="book-btn">Book Now</button>
       </div>
     </nav>
   );

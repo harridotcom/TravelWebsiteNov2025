@@ -1,6 +1,9 @@
-import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { useState } from 'react';
 
-function Destinations() {
+function DestinationDetail() {
+  const { country } = useParams();
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const destinationsData = {
     switzerland: {
@@ -304,66 +307,46 @@ function Destinations() {
     }
   };
 
+  const destinationData = destinationsData[country];
 
-  const renderCountryCard = (countryKey, data) => {
-    const previewPlaces = data.places.slice(0, 3);
-
+  if (!destinationData) {
     return (
-      <div key={countryKey} className="country-card">
-        <div className="country-header">
-          <img src={data.mainImage} alt={data.name} className="country-main-image" />
-          <div className="country-overlay">
-            <h3 className="country-name">{data.name}</h3>
-            <p className="country-tagline">{data.tagline}</p>
+      <div className="page-content">
+        <section className="page-hero">
+          <div className="page-hero-content">
+            <h1 className="page-title">Destination Not Found</h1>
+            <p className="page-subtitle">The destination you're looking for doesn't exist.</p>
           </div>
-        </div>
-        <div className="country-places">
-          <h4>Top Places to Visit</h4>
-          <div className="places-preview">
-            <div className="places-grid">
-              {previewPlaces.map((place, index) => (
-                <div key={index} className="place-item">
-                  <img src={place.image} alt={place.name} />
-                  <div className="place-info">
-                    <h5>{place.name}</h5>
-                    <p>{place.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="country-buttons">
-              <Link 
-                to={`/destinations/${countryKey}`} 
-                className="view-details-btn"
-              >
-                View Details
-              </Link>
-            </div>
-          </div>
-        </div>
+        </section>
       </div>
     );
-  };
-
+  }
 
   return (
     <div className="page-content">
-      <section className="page-hero">
+      <section className="page-hero" style={{ backgroundImage: `url(${destinationData.mainImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="page-hero-content">
-          <h1 className="page-title">Explore Destinations</h1>
-          <p className="page-subtitle">Discover the world's most amazing places with our expertly curated destinations</p>
+          <h1 className="page-title">{destinationData.name} {destinationData.flag}</h1>
+          <p className="page-subtitle">{destinationData.tagline}</p>
+          <p style={{ marginTop: '1rem', fontSize: '1.1rem', opacity: '0.9' }}>{destinationData.description}</p>
         </div>
       </section>
 
-      <section className="beautiful-countries">
+      <section className="destination-details-section">
         <div className="features-container">
-          <h2 className="features-title">Most Beautiful Countries to Visit</h2>
-          <p className="section-subtitle">Discover breathtaking destinations and their most stunning attractions</p>
+          <h2 className="features-title">Places to Visit in {destinationData.name}</h2>
+          <p className="section-subtitle">Explore the most stunning attractions and landmarks</p>
           
-          <div className="countries-grid">
-            {Object.entries(destinationsData).map(([countryKey, data]) => 
-              renderCountryCard(countryKey, data)
-            )}
+          <div className="gallery-grid">
+            {destinationData.places.map((place, index) => (
+              <div key={index} className="gallery-item">
+                <img src={place.image} alt={place.name} />
+                <div className="gallery-item-info">
+                  <h4>{place.name}</h4>
+                  <p>{place.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -371,4 +354,4 @@ function Destinations() {
   );
 }
 
-export default Destinations;
+export default DestinationDetail;

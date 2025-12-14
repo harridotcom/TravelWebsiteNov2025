@@ -10,7 +10,6 @@ function Contact() {
 
       <section className="contact-section">
         <div className="contact-container">
-          <h2 className="contact-title">Contact Us</h2>
               <form className="contact-form">
                 <div className="form-row">
                   <div className="form-group">
@@ -64,18 +63,34 @@ function Contact() {
         </div>
       </section>
 
-      <section className="contact-cta">
-        <div className="features-container">
-          <div className="cta-content">
-            <h2>Ready to Start Planning?</h2>
-            <p>Our travel experts are standing by to help create your perfect vacation experience.</p>
-            <div className="cta-buttons">
-              <button className="cta-button">Schedule a Consultation</button>
-              <button className="cta-button-outline">Request a Quote</button>
+      <section className="contact-info-section">
+        <div className="contact-container">
+          <h2 className="contact-info-title">Get in Touch</h2>
+          <div className="contact-details-grid">
+            <div className="contact-detail-card">
+              <div className="contact-icon">📱</div>
+              <h3>WhatsApp</h3>
+              <p>+971 501196100</p>
+            </div>
+            <div className="contact-detail-card">
+              <div className="contact-icon">☎️</div>
+              <h3>Phone</h3>
+              <p>04 236 9880</p>
+            </div>
+            <div className="contact-detail-card">
+              <div className="contact-icon">📧</div>
+              <h3>Email</h3>
+              <p>holiday@unitstravel.com</p>
+            </div>
+            <div className="contact-detail-card">
+              <div className="contact-icon">📍</div>
+              <h3>Address</h3>
+              <p>M-07, Business Point Bldg<br/>PO Box 18811 Deira<br/>Dubai, UAE</p>
             </div>
           </div>
         </div>
       </section>
+
     </div>
   );
 }

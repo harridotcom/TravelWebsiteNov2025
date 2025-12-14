@@ -6,34 +6,34 @@ const HeroSlider = () => {
 
   const slides = [
     {
-      image: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2400&q=80',
-      title: 'Dubai Skyline at Night',
-      subtitle: 'Where modern architecture meets Arabian magic under starlit skies'
+      image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
+      title: 'Burj Khalifa & Downtown Dubai',
+      subtitle: 'Experience the world\'s tallest building and Dubai\'s magnificent skyline'
     },
     {
-      image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2400&q=80',
-      title: 'Burj Al Arab Sunset',
-      subtitle: 'Sail into luxury at the world\'s most iconic hotel silhouette'
+      image: 'https://images.unsplash.com/photo-1580674684081-7617fbf3d745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
+      title: 'Burj Al Arab',
+      subtitle: 'Visit the world\'s most luxurious hotel and Dubai\'s iconic sail-shaped masterpiece'
     },
     {
-      image: 'https://images.unsplash.com/photo-1580196969807-cc6de06c05be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2400&q=80',
-      title: 'Dubai Creek Heritage',
-      subtitle: 'Discover the golden soul of old Dubai along historic waterways'
+      image: 'https://images.unsplash.com/photo-1578895101408-1a36b834405b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
+      title: 'Dubai Marina',
+      subtitle: 'Explore the stunning waterfront promenade and world\'s largest man-made marina'
     },
     {
-      image: 'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2400&q=80',
-      title: 'Marina Waterfront',
-      subtitle: 'Experience breathtaking views from the world\'s largest man-made marina'
+      image: 'https://images.unsplash.com/photo-1571919743851-c8c79375bb30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
+      title: 'Dubai Desert Safari',
+      subtitle: 'Experience thrilling dune bashing and traditional Bedouin culture in golden desert'
     },
     {
-      image: 'https://images.unsplash.com/photo-1571919743851-c8c79375bb30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2400&q=80',
-      title: 'Desert Safari Adventure',
-      subtitle: 'Journey into endless golden dunes just beyond the city limits'
+      image: 'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
+      title: 'Palm Jumeirah',
+      subtitle: 'Visit the world\'s largest artificial island and luxury resorts'
     },
     {
-      image: 'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2400&q=80',
-      title: 'Dubai Frame Vista',
-      subtitle: 'Frame the past and future through Dubai\'s magnificent golden portal'
+      image: 'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
+      title: 'Dubai Mall & Fountain',
+      subtitle: 'Shop at the world\'s largest mall and watch spectacular fountain shows'
     }
   ];
 

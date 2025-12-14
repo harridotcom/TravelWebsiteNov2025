@@ -7,6 +7,8 @@ import Packages from './pages/Packages';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Destinations from './pages/Destinations';
+import DestinationDetail from './pages/DestinationDetail';
+import Visa from './pages/Visa';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/destinations" element={<Destinations />} />
+            <Route path="/destinations/:country" element={<DestinationDetail />} />
+            <Route path="/visa" element={<Visa />} />
           </Routes>
         </main>
         <Footer />
