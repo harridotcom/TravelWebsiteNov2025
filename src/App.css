@@ -635,6 +635,11 @@ body {
     transform: translateX(5px);
   }
 
+  .logo-text {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+  }
+
   .hero-title {
     font-size: 2.5rem;
   }
@@ -660,6 +665,11 @@ body {
 
   .nav-container {
     padding: 0 1rem;
+  }
+
+  .logo-text {
+    font-size: 0.75rem;
+    letter-spacing: 0.3px;
   }
 
   .hero-content {
