@@ -9,6 +9,7 @@ import About from './pages/About';
 import Destinations from './pages/Destinations';
 import DestinationDetail from './pages/DestinationDetail';
 import Visa from './pages/Visa';
+import Flights from './pages/Flights';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/destinations" element={<Destinations />} />
             <Route path="/destinations/:country" element={<DestinationDetail />} />
             <Route path="/visa" element={<Visa />} />
+            <Route path="/flights" element={<Flights />} />
           </Routes>
         </main>
         <Footer />

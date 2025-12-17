@@ -106,199 +106,339 @@ function Destinations() {
         }
       ]
     },
-    norway: {
-      name: "Norway",
-      flag: "🇳🇴",
-      tagline: "Nordic Wilderness",
-      description: "Journey through dramatic fjords, witness the dancing northern lights, and explore pristine arctic landscapes.",
-      mainImage: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    uae: {
+      name: "United Arab Emirates",
+      flag: "🇦🇪",
+      tagline: "Modern Marvels",
+      description: "Experience futuristic cities, luxury shopping, stunning architecture, and endless desert adventures.",
+      mainImage: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       places: [
         {
+          image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Dubai",
+          description: "City of skyscrapers"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1529492964842-2b35e4e2f5c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Abu Dhabi",
+          description: "Capital and culture"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Burj Khalifa",
+          description: "World's tallest building"
+        }
+      ]
+    },
+    georgia: {
+      name: "Georgia",
+      flag: "🇬🇪",
+      tagline: "Crossroads of Cultures",
+      description: "Discover ancient wine traditions, stunning mountain landscapes, and warm hospitality at the crossroads of Europe and Asia.",
+      mainImage: "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
+        {
+          image: "https://images.unsplash.com/photo-1565097409498-07e8c3d45f96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Tbilisi",
+          description: "Historic capital"
+        },
+        {
           image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Geiranger Fjord",
-          description: "UNESCO World Heritage"
+          name: "Svaneti",
+          description: "Mountain towers"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Kazbegi",
+          description: "Caucasus peaks"
+        }
+      ]
+    },
+    azerbaijan: {
+      name: "Azerbaijan",
+      flag: "🇦🇿",
+      tagline: "Land of Fire",
+      description: "Explore ancient fire temples, modern architecture, and rich cultural heritage in the land of eternal flames.",
+      mainImage: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
+        {
+          image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Baku",
+          description: "Flame Towers city"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Gobustan",
+          description: "Ancient rock art"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Sheki",
+          description: "Silk Road heritage"
+        }
+      ]
+    },
+    armenia: {
+      name: "Armenia",
+      flag: "🇦🇲",
+      tagline: "Ancient Heritage",
+      description: "Journey through the world's first Christian nation, with ancient monasteries, stunning landscapes, and rich traditions.",
+      mainImage: "https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
+        {
+          image: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Yerevan",
+          description: "Pink city"
         },
         {
           image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Lofoten Islands",
-          description: "Arctic wilderness"
+          name: "Mount Ararat",
+          description: "National symbol"
         },
         {
-          image: "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Northern Lights",
-          description: "Aurora Borealis magic"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1539066033332-e64ac3338768?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Bergen",
-          description: "Gateway to the fjords"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1591162618851-70ee8e040fdb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Tromsø",
-          description: "Arctic capital"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1571079570759-ce593986802c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Preikestolen",
-          description: "Pulpit Rock cliff"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1569640779138-8db1dc8fb0d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Flam",
-          description: "Railway and cruise hub"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1571079570759-ce593986802c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Stavanger",
-          description: "Oil capital and fjords"
+          image: "https://images.unsplash.com/photo-1565097409498-07e8c3d45f96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Geghard Monastery",
+          description: "Rock-carved church"
         }
       ]
     },
-    newzealand: {
-      name: "New Zealand",
-      flag: "🇳🇿",
-      tagline: "Adventure Awaits",
-      description: "Explore diverse landscapes from snow-capped mountains to pristine coastlines in this adventure lover's paradise.",
-      mainImage: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    vietnam: {
+      name: "Vietnam",
+      flag: "🇻🇳",
+      tagline: "Timeless Beauty",
+      description: "Experience vibrant street life, stunning natural landscapes, delicious cuisine, and rich history from north to south.",
+      mainImage: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       places: [
         {
-          image: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Milford Sound",
-          description: "Dramatic fjord landscape"
+          image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Ha Long Bay",
+          description: "Limestone karsts"
         },
         {
-          image: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Hobbiton",
-          description: "Lord of the Rings film set"
+          image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Ho Chi Minh City",
+          description: "Vibrant metropolis"
         },
         {
-          image: "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Queenstown",
-          description: "Adventure sports hub"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Bay of Islands",
-          description: "Sailing and dolphins"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1568428942120-89151cfaad1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Mount Cook",
-          description: "Highest peak in NZ"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1568322445389-f64ac2515020?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Auckland",
-          description: "City of sails"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1460500063983-994d4c27756c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Rotorua",
-          description: "Geothermal wonderland"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1583160247711-2191776b4b91?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Wellington",
-          description: "Capital and culture"
+          image: "https://images.unsplash.com/photo-1565097409498-07e8c3d45f96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Hoi An",
+          description: "Ancient trading port"
         }
       ]
     },
-    italy: {
-      name: "Italy",
-      flag: "🇮🇹",
-      tagline: "Renaissance Beauty",
-      description: "Immerse yourself in timeless art, rich history, world-class cuisine, and breathtaking Mediterranean landscapes.",
+    bali: {
+      name: "Bali, Indonesia",
+      flag: "🇮🇩",
+      tagline: "Island Paradise",
+      description: "Discover tropical beaches, ancient temples, lush rice terraces, and spiritual experiences in this Indonesian paradise.",
+      mainImage: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
+        {
+          image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Ubud",
+          description: "Cultural heart"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Seminyak Beach",
+          description: "Sunset paradise"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1565097409498-07e8c3d45f96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Tanah Lot",
+          description: "Sea temple"
+        }
+      ]
+    },
+    oman: {
+      name: "Oman",
+      flag: "🇴🇲",
+      tagline: "Arabian Jewel",
+      description: "Explore stunning deserts, pristine coastlines, ancient forts, and authentic Arabian culture in this hidden gem.",
+      mainImage: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
+        {
+          image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Muscat",
+          description: "Capital of culture"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Wahiba Sands",
+          description: "Desert adventure"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Nizwa",
+          description: "Ancient capital"
+        }
+      ]
+    },
+    china: {
+      name: "China",
+      flag: "🇨🇳",
+      tagline: "Ancient Wonders",
+      description: "Discover millennia of history, stunning landscapes, modern cities, and cultural treasures across this vast nation.",
+      mainImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
+        {
+          image: "https://images.unsplash.com/photo-1565097409498-07e8c3d45f96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Great Wall",
+          description: "Ancient wonder"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Beijing",
+          description: "Imperial capital"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Shanghai",
+          description: "Modern metropolis"
+        }
+      ]
+    },
+    saudiarabia: {
+      name: "Saudi Arabia",
+      flag: "🇸🇦",
+      tagline: "Kingdom of Wonders",
+      description: "Experience ancient heritage, modern vision, stunning landscapes, and authentic Arabian hospitality.",
+      mainImage: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
+        {
+          image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Riyadh",
+          description: "Modern capital"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "AlUla",
+          description: "Archaeological wonder"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Edge of the World",
+          description: "Dramatic cliffs"
+        }
+      ]
+    },
+    france: {
+      name: "France",
+      flag: "🇫🇷",
+      tagline: "Romance & Culture",
+      description: "Experience world-renowned cuisine, art, fashion, and romantic landscapes from Paris to Provence.",
       mainImage: "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       places: [
         {
           image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Rome",
-          description: "Eternal City"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Venice",
-          description: "Floating city"
+          name: "Paris",
+          description: "City of Light"
         },
         {
           image: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Amalfi Coast",
-          description: "Mediterranean paradise"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Florence",
-          description: "Renaissance capital"
+          name: "French Riviera",
+          description: "Mediterranean glamour"
         },
         {
           image: "https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Tuscany",
-          description: "Wine country hills"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Cinque Terre",
-          description: "Coastal cliff villages"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Milan",
-          description: "Fashion and design"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1555992538-c3cd2c0df17c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Lake Como",
-          description: "Alpine lake luxury"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Sicily",
-          description: "Island of contrasts"
+          name: "Provence",
+          description: "Lavender fields"
         }
       ]
     },
-    iceland: {
-      name: "Iceland",
-      flag: "🇮🇸",
-      tagline: "Fire & Ice",
-      description: "Witness nature's raw power through geysers, glaciers, volcanoes, and otherworldly landscapes.",
-      mainImage: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    thailand: {
+      name: "Thailand",
+      flag: "🇹🇭",
+      tagline: "Land of Smiles",
+      description: "Discover vibrant temples, pristine beaches, delicious cuisine, and warm hospitality in Southeast Asia's jewel.",
+      mainImage: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       places: [
         {
           image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Blue Lagoon",
-          description: "Geothermal spa"
+          name: "Bangkok",
+          description: "Vibrant capital"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Phuket",
+          description: "Island paradise"
         },
         {
           image: "https://images.unsplash.com/photo-1565097409498-07e8c3d45f96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Golden Circle",
-          description: "Geysers and waterfalls"
-        },
+          name: "Chiang Mai",
+          description: "Northern culture"
+        }
+      ]
+    },
+    maldives: {
+      name: "Maldives",
+      flag: "🇲🇻",
+      tagline: "Tropical Paradise",
+      description: "Escape to pristine white beaches, crystal-clear waters, luxury resorts, and world-class diving experiences.",
+      mainImage: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
         {
-          image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Jökulsárlón",
-          description: "Glacier lagoon"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1513416879801-db238d60e909?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Reykjavik",
-          description: "Colorful Nordic capital"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1565097409498-07e8c3d45f96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Gullfoss",
-          description: "Golden waterfall"
-        },
-        {
-          image: "https://images.unsplash.com/photo-1475776408506-9a5371e7a068?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Westfjords",
-          description: "Remote dramatic cliffs"
+          image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Malé",
+          description: "Capital atoll"
         },
         {
           image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-          name: "Vatnajökull",
-          description: "Europe's largest glacier"
+          name: "Baa Atoll",
+          description: "UNESCO biosphere"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1565097409498-07e8c3d45f96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Overwater Villas",
+          description: "Luxury accommodation"
+        }
+      ]
+    },
+    egypt: {
+      name: "Egypt",
+      flag: "🇪🇬",
+      tagline: "Ancient Mysteries",
+      description: "Explore ancient pyramids, magnificent temples, the Nile River, and thousands of years of fascinating history.",
+      mainImage: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
+        {
+          image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Pyramids of Giza",
+          description: "Ancient wonders"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Cairo",
+          description: "City of pharaohs"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Luxor",
+          description: "Valley of Kings"
+        }
+      ]
+    },
+    southafrica: {
+      name: "South Africa",
+      flag: "🇿🇦",
+      tagline: "Rainbow Nation",
+      description: "Experience diverse wildlife, stunning landscapes, vibrant cultures, and world-class wines in the rainbow nation.",
+      mainImage: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
+        {
+          image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Cape Town",
+          description: "Mother City"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Kruger National Park",
+          description: "Big Five safari"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1565097409498-07e8c3d45f96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Table Mountain",
+          description: "Iconic landmark"
         }
       ]
     }
