@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 function Destinations() {
 
@@ -441,9 +442,105 @@ function Destinations() {
           description: "Iconic landmark"
         }
       ]
+    },
+    srilanka: {
+      name: "Sri Lanka",
+      flag: "🇱🇰",
+      tagline: "Pearl of the Indian Ocean",
+      description: "Discover ancient temples, pristine beaches, lush tea plantations, and incredible wildlife in this tropical island paradise.",
+      mainImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      places: [
+        {
+          image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Sigiriya",
+          description: "Ancient rock fortress"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Kandy",
+          description: "Cultural capital"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Ella",
+          description: "Tea country paradise"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1565097409498-07e8c3d45f96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Galle",
+          description: "Colonial fort city"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Yala National Park",
+          description: "Wildlife sanctuary"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Unawatuna Beach",
+          description: "Golden sandy beaches"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Dambulla Cave Temple",
+          description: "Ancient Buddhist caves"
+        },
+        {
+          image: "https://images.unsplash.com/photo-1578469645742-46cae010e5d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          name: "Nuwara Eliya",
+          description: "Little England"
+        }
+      ]
     }
   };
 
+  // Carousel state and functionality
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const dubaiImages = [
+    {
+      src: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80",
+      title: "Dubai Skyline",
+      description: "Modern marvels reaching for the sky"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80",
+      title: "Burj Al Arab",
+      description: "Iconic sail-shaped luxury"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80",
+      title: "Dubai Marina",
+      description: "Waterfront living at its finest"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1580674285054-bed31e145f59?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80",
+      title: "Palm Jumeirah",
+      description: "Man-made wonder of the world"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80",
+      title: "Dubai Fountain",
+      description: "Dancing waters and music"
+    }
+  ];
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % dubaiImages.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + dubaiImages.length) % dubaiImages.length);
+  };
+
+  const goToSlide = (index) => {
+    setCurrentSlide(index);
+  };
+
+  // Auto-advance carousel
+  useEffect(() => {
+    const timer = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+    return () => clearInterval(timer);
+  }, []);
 
   const renderCountryCard = (countryKey, data) => {
     const previewPlaces = data.places.slice(0, 3);
@@ -488,10 +585,41 @@ function Destinations() {
 
   return (
     <div className="page-content">
-      <section className="page-hero">
-        <div className="page-hero-content">
-          <h1 className="page-title">Explore Destinations</h1>
-          <p className="page-subtitle">Discover the world's most amazing places with our expertly curated destinations</p>
+      <section className="dubai-carousel-section">
+        <div className="carousel-container">
+          <div className="carousel-header">
+            <h2>Discover Dubai</h2>
+            <p>Experience the extraordinary</p>
+          </div>
+          <div className="image-carousel">
+            <div className="carousel-track">
+              {dubaiImages.map((image, index) => (
+                <div 
+                  key={index}
+                  className={`carousel-slide ${index === currentSlide ? 'active' : ''}`}
+                >
+                  <img src={image.src} alt={image.title} />
+                  <div className="slide-content">
+                    <h3>{image.title}</h3>
+                    <p>{image.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="carousel-nav">
+              <button className="nav-btn prev-btn" onClick={prevSlide}>‹</button>
+              <button className="nav-btn next-btn" onClick={nextSlide}>›</button>
+            </div>
+            <div className="carousel-dots">
+              {dubaiImages.map((_, index) => (
+                <span 
+                  key={index}
+                  className={`dot ${index === currentSlide ? 'active' : ''}`}
+                  onClick={() => goToSlide(index)}
+                ></span>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
