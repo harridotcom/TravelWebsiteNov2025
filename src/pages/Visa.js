@@ -8,25 +8,11 @@ function Visa() {
       features: ["Multiple entry options", "Duration up to 6 months", "Tourism purposes", "Family visits"]
     },
     {
-      title: "Business Visa", 
-      description: "For business meetings and conferences",
-      countries: "120+ Countries",
+      title: "Global Visa",
+      description: "Comprehensive visa services for worldwide travel",
+      countries: "180+ Countries",
       processing: "5-20 business days",
-      features: ["Corporate travel", "Meetings & conferences", "Trade missions", "Business partnerships"]
-    },
-    {
-      title: "Transit Visa",
-      description: "For airport layovers and connections",
-      countries: "80+ Countries", 
-      processing: "1-7 business days",
-      features: ["Airport transit", "Short layovers", "Quick processing", "Connection flights"]
-    },
-    {
-      title: "Express Visa",
-      description: "Emergency and urgent processing",
-      countries: "50+ Countries",
-      processing: "24-72 hours",
-      features: ["Emergency travel", "Urgent processing", "Premium service", "Fast-track approval"]
+      features: ["Worldwide coverage", "Multiple entry types", "Flexible duration", "Expert consultation"]
     }
   ];
 
