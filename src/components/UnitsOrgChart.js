@@ -40,7 +40,7 @@ export default function UnitsOrgChart() {
                 },
                 { 
                     name: 'Avani', 
-                    title: 'Holiday Specialist',
+                    title: 'Holiday Specialist & Digital Media Executive',
                     bio: 'Creating memorable holiday experiences with personalized itineraries and exceptional service.',
                     email: 'avani@unitstravel.com'
                 },
@@ -52,7 +52,7 @@ export default function UnitsOrgChart() {
                 },
                 { 
                     name: 'Nisha', 
-                    title: 'Administrative Support',
+                    title: 'Administrative Support Executive',
                     bio: 'Providing comprehensive administrative support to ensure smooth operations.',
                     email: 'nisha@unitstravel.com'
                 }
@@ -65,13 +65,13 @@ export default function UnitsOrgChart() {
                     email: 'santi@unitstravel.com'
                 },
                 { 
-                    name: 'Jerson Rafol', 
+                    name: 'Jerson', 
                     title: 'Ticketing Operator',
                     bio: 'Expert in complex itinerary planning and multi-destination ticketing.',
                     email: 'jerson@unitstravel.com'
                 },
                 { 
-                    name: 'Christopher Matacot', 
+                    name: 'Christopher', 
                     title: 'Ticketing Operator',
                     bio: 'Handling corporate travel bookings and group reservations efficiently.',
                     email: 'christopher@unitstravel.com'
@@ -84,7 +84,7 @@ export default function UnitsOrgChart() {
                 },
                 { 
                     name: 'Trixie', 
-                    title: 'Office Support',
+                    title: 'Office Support Executive',
                     bio: 'Supporting ticketing operations with administrative assistance.',
                     email: 'trixie@unitstravel.com'
                 }

@@ -89,14 +89,14 @@ function OrganizationTree3D() {
       children: []
     },
     jerson: {
-      name: "Jerson Rafol",
+      name: "Jerson",
       position: "Ticketing Operator",
       id: "jerson",
       level: 4,
       children: []
     },
     christopher: {
-      name: "Christopher Matacot",
+      name: "Christopher",
       position: "Ticketing Operator",
       id: "christopher",
       level: 4,
