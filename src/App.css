@@ -2047,6 +2047,231 @@ body {
   }
 }
 
+/* Reviews Section Styles */
+.reviews-section {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.reviews-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reviews-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2d3748;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.reviews-section {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  overflow: hidden;
+}
+
+.marquee-wrapper {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: 2rem 0;
+}
+
+.marquee-content {
+  display: flex;
+  animation: scroll 80s linear infinite;
+  gap: 1.5rem;
+  white-space: nowrap;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.review-box {
+  background: white;
+  border: 2px solid #667eea;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin-right: 1.5rem;
+  width: 400px;
+  min-width: 400px;
+  max-width: 400px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  white-space: normal;
+  text-align: center;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  height: auto;
+  min-height: 180px;
+}
+
+.review-box:hover {
+  transform: translateY(-3px);
+}
+
+.review-rating {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.review-text {
+  font-size: 1rem;
+  color: #2d3748;
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+  display: block;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.review-author {
+  font-size: 0.95rem;
+  color: #667eea;
+  font-weight: 700;
+  display: block;
+}
+
+.reviews-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.stat-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #667eea;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #718096;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Responsive Reviews */
+@media (max-width: 768px) {
+  .reviews-section {
+    padding: 3rem 0;
+  }
+  
+  .reviews-title {
+    font-size: 2.2rem;
+    padding: 0 1rem;
+  }
+  
+  .section-subtitle {
+    padding: 0 1rem;
+  }
+  
+  .marquee-wrapper {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem 0;
+  }
+  
+  .review-box {
+    width: 320px;
+    min-width: 320px;
+    max-width: 320px;
+    padding: 1.2rem 1.6rem;
+    min-height: 160px;
+  }
+  
+  .review-rating {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .review-text {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  .review-author {
+    font-size: 0.85rem;
+  }
+  
+  .reviews-stats {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 0 1rem;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .marquee-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+  }
+  
+  .review-box {
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    padding: 1rem 1.4rem;
+    min-height: 140px;
+  }
+  
+  .review-rating {
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+  }
+  
+  .review-text {
+    font-size: 0.8rem;
+    margin-bottom: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .review-author {
+    font-size: 0.8rem;
+  }
+  
+  .reviews-stats {
+    padding: 1.5rem;
+  }
+}
+
 /* Professional Visa Page Styles */
 .visa-hero {
   padding: 6rem 2rem 4rem;

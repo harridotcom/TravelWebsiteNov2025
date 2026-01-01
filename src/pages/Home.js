@@ -110,6 +110,92 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <section className="reviews-section" id="reviews">
+        <div className="reviews-container">
+          <h2 className="reviews-title">What Our Customers Say</h2>
+          <p className="section-subtitle">Real experiences from travelers who chose Units Travel LLC</p>
+          
+          <div className="marquee-wrapper">
+            <div className="marquee-content">
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"I just wrapped up a wonderful trip to the UAE in December, and I have to give a huge thanks to Unit Travels and specifically Mr. Hitesh. If you want a stress-free Dubai experience, this is the team to call."</div>
+                <div className="review-author">- Vishal Brahmbhatt</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Wonderful experience...homely feelings...very good service...safe.... We enjoyed a lot.... Thank you UNIT team. Happy to be in touch in future."</div>
+                <div className="review-author">- Rahul Biyani</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"I am glad to choice Units Travel LLC for my last family visit for Dubai, they given me service far of my expectations, i love the way of all team members of unit travel."</div>
+                <div className="review-author">- Navneet Choradia</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"I had booked dubai and abu dhabi ride with units travels and was assisted by avani ji. I would like to appreciate the quality of service they provided especially the professionalism."</div>
+                <div className="review-author">- Avishkar Sabnis</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Well organised tour with a blend of sight seeing & leisure time. Good vehicle with fluent English speaking driver having great knowledge."</div>
+                <div className="review-author">- Umesh Dhavalikar</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Service was excellent with utmost professionalism. Very happy with the service. Highly recommend travel service to everyone who is looking for exploring Dubai and Abu Dhabi."</div>
+                <div className="review-author">- Nehal Patel</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Superbly organized tour of At The Top and Aquarium by Mr Hitesh. Allowed us easy access to all facilities. Thanks Mr Hitesh for all the help."</div>
+                <div className="review-author">- Dr. Rajesh Quadros</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Units Travels is the company I would suggest to everyone who is planning a trip to Dubai. Staff was extremely cooperative and friendly. Special thanks to Mr Hiren, Mrs Avni and Ms Reena."</div>
+                <div className="review-author">- Bishal Pandya</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"I've been using their services through Hitesh since 2021 for all my family visit visa needs. He is super knowledgeable, reliable and gives the best price. Highly recommend!!"</div>
+                <div className="review-author">- Zeeshan Mehdi</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Unit Travel LLC is truly exceptional! Especially Hitesh Their team is professional, prompt, and incredibly reliable when it comes to tourism and visa services in Dubai."</div>
+                <div className="review-author">- Kapil Aidasani</div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="reviews-stats">
+            <div className="stat-item">
+              <div className="stat-number">500+</div>
+              <div className="stat-label">Happy Customers</div>
+            </div>
+            <div className="stat-item">
+              <div className="stat-number">4.9</div>
+              <div className="stat-label">Average Rating</div>
+            </div>
+            <div className="stat-item">
+              <div className="stat-number">100%</div>
+              <div className="stat-label">Satisfaction Rate</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
