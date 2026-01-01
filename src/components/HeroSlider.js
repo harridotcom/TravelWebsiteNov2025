@@ -16,25 +16,35 @@ const HeroSlider = () => {
       subtitle: 'Visit the world\'s most luxurious hotel and Dubai\'s iconic sail-shaped masterpiece'
     },
     {
+      image: 'https://images.unsplash.com/photo-1563911302283-d2bc129e7570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
+      title: 'Ferrari World Dubai',
+      subtitle: 'Experience the ultimate thrill at Ferrari World theme park and museum'
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
+      title: 'Dubai Culinary Delights',
+      subtitle: 'Savor world-class cuisine from traditional Arabic to international fine dining'
+    },
+    {
       image: 'https://images.unsplash.com/photo-1578895101408-1a36b834405b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
       title: 'Dubai Marina',
       subtitle: 'Explore the stunning waterfront promenade and world\'s largest man-made marina'
     },
     {
-      image: 'https://images.unsplash.com/photo-1571919743851-c8c79375bb30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
-      title: 'Dubai Desert Safari',
-      subtitle: 'Experience thrilling dune bashing and traditional Bedouin culture in golden desert'
+      image: 'https://images.unsplash.com/photo-1549180030-48bf079fb38a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
+      title: 'Dubai Gold Souk',
+      subtitle: 'Discover the world\'s largest gold market in traditional Dubai souks'
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
+      title: 'Dubai Creek & Dhow Cruise',
+      subtitle: 'Take a traditional dhow cruise along historic Dubai Creek'
     },
     {
       image: 'https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
       title: 'Palm Jumeirah',
       subtitle: 'Visit the world\'s largest artificial island and luxury resorts'
     },
-    {
-      image: 'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80',
-      title: 'Dubai Mall & Fountain',
-      subtitle: 'Shop at the world\'s largest mall and watch spectacular fountain shows'
-    }
   ];
 
   useEffect(() => {
