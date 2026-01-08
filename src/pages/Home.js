@@ -177,21 +177,48 @@ function Home() {
                 <div className="review-text">"Unit Travel LLC is truly exceptional! Especially Hitesh Their team is professional, prompt, and incredibly reliable when it comes to tourism and visa services in Dubai."</div>
                 <div className="review-author">- Kapil Aidasani</div>
               </div>
-            </div>
-          </div>
-          
-          <div className="reviews-stats">
-            <div className="stat-item">
-              <div className="stat-number">500+</div>
-              <div className="stat-label">Happy Customers</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">4.9</div>
-              <div className="stat-label">Average Rating</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">100%</div>
-              <div className="stat-label">Satisfaction Rate</div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Amazing experience with Units Travel! They made our Switzerland trip absolutely perfect. Every detail was taken care of and the tour was flawlessly organized."</div>
+                <div className="review-author">- Priya Sharma</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Excellent service for our Japan trip! The team went above and beyond to ensure we had the best experience. Highly professional and trustworthy."</div>
+                <div className="review-author">- Rajesh Kumar</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Outstanding visa processing service! Got my UAE visa within 2 days. The staff is very helpful and guides you through every step of the process."</div>
+                <div className="review-author">- Meera Patel</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Perfect holiday package to Thailand! Everything from flights to hotels was arranged seamlessly. Will definitely book with Units Travel again."</div>
+                <div className="review-author">- Amit Singh</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Fantastic Egypt tour experience! The historical sites were incredible and our guide was very knowledgeable. Units Travel made it memorable."</div>
+                <div className="review-author">- Deepak Malhotra</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Superb service for our Maldives honeymoon! The resort was perfect and all arrangements were top-notch. Thank you Units Travel team!"</div>
+                <div className="review-author">- Sneha & Arjun</div>
+              </div>
+              
+              <div className="review-box">
+                <div className="review-rating">⭐⭐⭐⭐⭐</div>
+                <div className="review-text">"Great experience with their corporate travel services. All business trips are handled professionally with excellent attention to detail."</div>
+                <div className="review-author">- Vikram Industries</div>
+              </div>
             </div>
           </div>
         </div>

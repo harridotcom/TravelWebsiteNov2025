@@ -2627,13 +2627,24 @@ body {
   font-weight: 800;
   margin-bottom: 1.5rem;
   line-height: 1.1;
+  color: white !important;
+  text-shadow: none !important;
+  background: none !important;
+  background-image: none !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
+  -webkit-text-fill-color: white !important;
+  text-fill-color: white !important;
 }
 
 .highlight-text {
-  background: linear-gradient(45deg, #ffd700, #ff6b6b);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white !important;
+  background: none !important;
+  background-image: none !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
+  -webkit-text-fill-color: white !important;
+  text-shadow: none !important;
 }
 
 .hero-subtitle {

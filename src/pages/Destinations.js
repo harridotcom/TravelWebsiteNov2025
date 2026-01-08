@@ -125,12 +125,12 @@ function Destinations() {
       mainImage: "https://images.unsplash.com/photo-1621680696874-edd80ce57b72?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8T21hbnxlbnwwfHwwfHx8MA%3D%3D",
       places: [
         {
-          image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          image: "https://images.unsplash.com/photo-1699855803432-17f4ab468b2d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TXVzY2F0fGVufDB8fDB8fHww",
           name: "Muscat",
           description: "Capital of culture"
         },
         {
-          image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+          image: "https://plus.unsplash.com/premium_photo-1724459312010-8be0677d5c87?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8V2FoaWJhJTIwU2FuZHN8ZW58MHx8MHx8fDA%3D",
           name: "Wahiba Sands",
           description: "Desert adventure"
         },

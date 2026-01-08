@@ -69,12 +69,12 @@ function DestinationDetail() {
           description: "Traditional Arabian boat experience"
         },
         {
-          image: "https://plus.unsplash.com/premium_photo-1694475172763-24e0c87c90a4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGhlJTIwcGFsbSUyMGR1YmFpJTIwdmlld3xlbnwwfHwwfHx8MA%3D%3D",
+          image: "https://plus.unsplash.com/premium_photo-1697729749013-d5263b662999?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           name: "The View at Palm",
           description: "Panoramic views from Palm Jumeirah"
         },
         {
-          image: "https://images.unsplash.com/photo-1634148551170-d37d021e0cc9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXRsYW50aXMlMjB0aGUlMjBwYWxtfGVufDB8fDB8fHww",
+          image: "https://images.unsplash.com/photo-1708761719067-bb7630724d68?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           name: "Atlantis Aquaventure",
           description: "Luxury resort and waterpark"
         }
