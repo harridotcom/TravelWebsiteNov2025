@@ -25,10 +25,10 @@ function Flights() {
   const popularDestinations = countries.filter(country => country.popular);
 
   const stats = [
-    { number: '50+', label: 'Airlines Partners', icon: '✈️' },
-    { number: '16', label: 'Countries', icon: '🌍' },
-    { number: '24/7', label: 'Support', icon: '🛡️' },
-    { number: '99%', label: 'Success Rate', icon: '⭐' }
+    { number: '50+', label: 'Airlines Partners', icon: 'Airlines' },
+    { number: '16', label: 'Countries', icon: 'Countries' },
+    { number: '24/7', label: 'Support', icon: 'Support' },
+    { number: '99%', label: 'Success Rate', icon: 'Success' }
   ];
 
   return (
